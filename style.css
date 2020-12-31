@@ -41,6 +41,13 @@ body {
   color: #fff;
   background: #330099;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.header__menu-item-call:hover {
+  background: #FFDA45;
+  color: #330099;
+  transition: .3s;
 }
 
 .intro {
@@ -137,6 +144,15 @@ body {
   padding: 20px 36px;
   background: #330099;
   border-radius: 50px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.why-me__btn:hover {
+  background: #FFDA45;
+  color: #330099;
+  transition: .3s;
 }
 
 .what-i-can {
@@ -271,6 +287,13 @@ body {
   font: 900 20px/24px Montserrat, Arial, Helvetica, sans-serif;
   padding: 23px 90px;
   text-align: center;
+  cursor: pointer;
+}
+
+.questions__btn:hover {
+  background: #FFDA45;
+  color: #4AB272;
+  transition: .3s;
 }
 
 .footer {
@@ -332,7 +355,7 @@ body {
     transition: .2s;
   }
 
-  .menu-burger__item:before {
+  .menu-burger__item::before {
     position: absolute;
     display: blochk;
     content: "";
@@ -343,7 +366,7 @@ body {
     transition: .2s;
   }
 
-  .menu-burger__item:after {
+  .menu-burger__item::after {
     position: absolute;
     display: block;
     content: "";
@@ -367,12 +390,12 @@ body {
     transform: rotate(45deg);
   }
 
-  .burger:checked ~ .burger-btn .menu-burger__item:before {
+  .burger:checked ~ .burger-btn .menu-burger__item::before {
     transform: rotate(90deg);
     top: 45%;
   }
 
-  .burger:checked ~ .burger-btn .menu-burger__item:after {
+  .burger:checked ~ .burger-btn .menu-burger__item::after {
     display: none;
   }
 
@@ -470,6 +493,7 @@ body {
     font: 800 16px/20px Montserrat, Arial, Helvetica, sans-serif;
     padding: 16px 20px;
     margin-bottom: 43px;
+    cursor: pointer;
   }
 
   .what-i-can {
@@ -580,6 +604,7 @@ body {
   .questions__btn {
     font: 900 16px/20px Montserrat, Arial, Helvetica, sans-serif;
     padding: 15px 82px;
+    cursor: pointer;
   }
 
   .footer {
@@ -639,7 +664,7 @@ body {
     transition: .2s;
   }
 
-  .menu-burger__item:before {
+  .menu-burger__item::before {
     position: absolute;
     display: blochk;
     content: "";
@@ -650,7 +675,7 @@ body {
     transition: .2s;
   }
 
-  .menu-burger__item:after {
+  .menu-burger__item::after {
     position: absolute;
     display: block;
     content: "";
@@ -674,12 +699,12 @@ body {
     transform: rotate(45deg);
   }
 
-  .burger:checked ~ .burger-btn .menu-burger__item:before {
+  .burger:checked ~ .burger-btn .menu-burger__item::before {
     transform: rotate(90deg);
     top: 45%;
   }
 
-  .burger:checked ~ .burger-btn .menu-burger__item:after {
+  .burger:checked ~ .burger-btn .menu-burger__item::after {
     display: none;
   }
 
